@@ -1,4 +1,4 @@
-Hi Sarim!
+### Hi Sarim!
 
 So, first of all, I'm pretty happy with this project considering all the challenges I ran into, including:
 
@@ -18,6 +18,7 @@ In any case, onto...
 
 
 FEATURES AND FILES:
+----------------------
 
 > MANDATORY FILES (manifest.json)
 
@@ -37,37 +38,38 @@ FEATURES AND FILES:
 
 
 MANDATORY FILES:
+----------------------
 
 > manifest.json is the basic framework of this Chrome extension. Most of this is pretty self-explanatory, but I had to access "storage", "activeTab", and "geolocation" to build this extension. This is also where I defined my new homepage and my popup HTML files.
 
-POPUP:
+* POPUP:
 
 > The popup is a basic HTML form with a sidebar that functions as my settings menu. You can access this through the Google Chrome toolbar. This is where you have options to configure the theme, bookmarks, and notes. If I had more time, I would have offered more options for date, time, and weather. I would also have made error-checking for this form more complete.
 
 > Something to note is that the Bookmarks options menu is a little clunky... It's not a dynamic list of bookmarks, but simply a list of links. If I had more time, I would try to implement a more user-friendly bookmarks menu. As it is, I just set "autocomplete" to on... sorry!
 
 
-NEWTAB:
+* NEWTAB:
 
 > This is what all of the popup options affect. Fairly self-explanatory.
 
-THEMES:
+* THEMES:
 
 > As for themes, theme.html gives options for themes such as background color, secondary background color, border color, font, and font color. Then, upon submitting the form, your chosen values are stored in the Chrome storage space via "chrome.storage.sync.set" and inputted into CSS variables, which affects newtab.css.
 
-DATE AND TIME:
+* DATE AND TIME:
 
 > These features do not yet have user interaction, but simply display the date and time dynamically. I update this clock via a function in time.js, and then insert it into newtab.html using the "innerhtml" utility.
 
-WEATHER:
+* WEATHER:
 
 > For the weather, I used multiple API's to first detect your IP address, then detect your longitude/latitude based on your IP address, then detect your locat weather based on your longitude/latitude. If I had more time, I would have added a Celsius option, as well as other options to set your location.
 
-BOOKMARKS:
+* BOOKMARKS:
 
 > For bookmarks, I use string concatenation to join text and a link in a HTML link tag, and then enter that link tag into newtab.html. You can display a maximum of 10 links.
 
-NOTES:
+* NOTES:
 
 > You can also input a note into notes.html and have it show on newtab.html. I enabled scrolling so it doesn't matter how long your note is.
 
@@ -78,8 +80,9 @@ Best,
 Christie
 
 
+SOURCES
+---------------
 Sources used in this project (not all cited throughout the project, because it's hard to track where I found info. All copied code is cited properly in my code):
-
 
 > https://developer.chrome.com/extensions/getstarted
 
