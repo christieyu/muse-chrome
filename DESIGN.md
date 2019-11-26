@@ -17,7 +17,7 @@ So all in all, I spent so much more time debugging than actually designing. I th
 In any case, onto...
 
 
-FEATURES AND FILES:
+FEATURES AND FILES
 ----------------------
 
 > MANDATORY FILES (manifest.json)
@@ -30,7 +30,7 @@ FEATURES AND FILES:
 > NOTES (notes.html, notes.js)
 
 
-MANDATORY FILES:
+MANDATORY FILES
 ----------------------
 
 > manifest.json is the basic framework of this Chrome extension. Most of this is pretty self-explanatory, but I had to access "storage", "activeTab", and "geolocation" to build this extension. This is also where I defined my new homepage and my popup HTML files.
