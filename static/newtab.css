@@ -1,0 +1,133 @@
+:root {
+    --main-bg-color: '#FEC8D8';
+    --second-bg-color: '#FFFFFF';
+    --border-color: '#FFFFFF';
+    --main-font: 'Cabin Condensed';
+    --main-font-color: '#000000';
+}
+
+body {
+	background-color: var(--main-bg-color);
+	overflow: scroll;
+	font-size: 35px;
+	text-align: center;
+	font-family: var(--main-font);
+	color: var(--main-font-color);
+}
+
+h1 {
+	font-size: 80px;
+	line-height: 1.2;
+}
+
+time {
+	font-size: 100px;
+	font-family: Andale Mono;
+}
+
+a {
+	display: list-item;
+	color: var(--main-font-color);
+	line-height: 1.2;
+	text-decoration: none;
+
+}
+
+date {
+	font-size: 45px;
+}
+name{
+
+}
+bookmarkbar {
+	font-family: var(--main-font);
+	width:150px;
+	height:600px;
+	padding: 20px;
+	position: fixed;
+	left:15px;
+	top: 50%;
+	-ms-transform: translateY(-50%); /* from https://www.w3schools.com/howto/howto_css_center-vertical.asp */
+	transform: translateY(-50%);
+	border: dotted 2px;
+	border-radius:20px;
+	border-color: var(--border-color);
+	background-color:var(--second-bg-color);
+	font-size: 20px;
+	font-weight: bold;
+}
+
+bookmarks {
+	font-family: var(--main-font);
+	font-size:16px;
+	width:120px;
+	height:500px;
+	padding: 20px;
+	position: fixed;
+	left:10px;
+	top: 50%;
+	-ms-transform: translateY(-50%); /* from https://www.w3schools.com/howto/howto_css_center-vertical.asp */
+	transform: translateY(-50%);
+	text-align: left;
+}
+
+notesbar {
+	font-family: var(--main-font);
+	width:150px;
+	height:600px;
+	padding: 20px;
+	position: fixed;
+	right:15px;
+	top: 50%;
+	-ms-transform: translateY(-50%); /* from https://www.w3schools.com/howto/howto_css_center-vertical.asp */
+	transform: translateY(-50%);
+	border: dotted 2px;
+	border-radius:20px;
+	border-color: var(--border-color);
+	background-color:var(--second-bg-color);
+	font-size: 20px;
+	font-weight: bold;
+}
+
+notes {
+	font-family: var(--main-font);
+	font-size:16px;
+	width:150px;
+	height:500px;
+	padding: 2.5px;
+	position: fixed;
+	right:17.5px;
+	top: 50%;
+	-ms-transform: translateY(-50%); /* from https://www.w3schools.com/howto/howto_css_center-vertical.asp */
+	transform: translateY(-50%);
+	text-align: left;
+	overflow: scroll;
+}
+
+fieldset {
+	background-color:var(--second-bg-color);
+	max-width:400px;
+	padding:16px;
+	margin:auto;
+	border-radius:20px;
+	border: dotted 8px;
+	border-color: var(--border-color);
+}
+
+place {
+	font-weight: bold;
+}
+
+temp {
+	font-size: 90px;
+	font-weight: bolder;
+}
+
+maxmin {
+	font-size: 20px;
+}
+
+description {
+	font-size: 25px;
+	font-style: italic;
+}

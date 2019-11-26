@@ -1,0 +1,52 @@
+<!doctype html>
+
+<link href='https://fonts.googleapis.com/css?family=Cabin Condensed' rel='stylesheet'>
+<link href="/static/newtab.css" rel="stylesheet">
+
+<script src="/scripts/jquery.min.js"></script>
+
+<html>
+	<head>
+		<title>New Tab</title>
+	</head>
+	<body>
+
+		<h1 id='newtabusername'></h1>
+
+		<bookmarkbar>
+			<u>Quick Links</u>
+			<br>
+			<bookmarks id="bookmarks"></bookmarks>
+			<span id='span1'></span>
+			<span id='span2'></span>
+		</bookmarkbar>
+
+		<notesbar>
+			<u>Notes</u>
+			<br>
+			<notes id="notes"></notes>
+		</notesbar>
+
+		<div id=datetime>
+		    <time id="time"> </time>
+		    <br>
+		    <date id="date"> </date>
+		    <script src="/scripts/time.js"></script>
+		</div>
+
+		<br>
+		<fieldset id=weather>
+			<place id="place">Loading local weather...</place>
+			<br>
+			<temp id="temp"> </temp>
+			<br>
+			<maxmin id="maxmin"> </maxmin>
+			<br>
+        	<description id="description"> </description>
+			<script src="/scripts/weather.js"></script>
+		</fieldset>
+
+	</body>
+</html>
+
+<script src="/scripts/newtab.js"></script>

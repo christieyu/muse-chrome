@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+	<head>
+
+		<!-- Required meta tags -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+		<link href="/static/popup.css" rel="stylesheet">
+		<link href='https://fonts.googleapis.com/css?family=Cabin Condensed' rel='stylesheet'>
+
+		<title>Muse</title>
+
+	</head>
+
+	<body>
+		<!-- Side navigation -->
+		<div class="sidenav">
+			<a href="/templates/popup.html">Home</a>
+			<a href="/templates/theme.html">Theme</a>
+			<a href="/templates/bookmarks.html">Bookmarks</a>
+			<a href="/templates/notes.html">Notes</a>
+		</div>
+
+		<!-- Page content -->
+		<div class="main">
+			<form name="theme">
+				<fieldset>
+					<legend>Choose a primary background color:</legend>
+					<select id="themebackground1">
+						<option disabled value="" selected>Theme</option>
+						<option value="#FFFFFF">Light</option>
+						<option value="#39424E">Dark</option>
+						<option value="#F76C6C">Red</option>
+						<option value="#A8D0E6">Blue</option>
+						<option value="#FFF58A">Yellow</option>
+						<option value="#CCEECC">Green</option>
+						<option value="#FEC8D8">Pink</option>
+						<option value="#E0BBE4">Purple</option>
+					</select>
+				</fieldset>
+
+				<fieldset>
+					<legend>Choose a secondary background color:</legend>
+					<select id="themebackground2">
+						<option disabled value="" selected>Theme</option>
+						<option value="#FFFFFF">Light</option>
+						<option value="#39424E">Dark</option>
+						<option value="#F76C6C">Red</option>
+						<option value="#A8D0E6">Blue</option>
+						<option value="#FFF58A">Yellow</option>
+						<option value="#CCEECC">Green</option>
+						<option value="#FEC8D8">Pink</option>
+						<option value="#E0BBE4">Purple</option>
+					</select>
+				</fieldset>
+
+				<fieldset>
+					<legend>Choose a border color:</legend>
+					<select id="themeborder">
+						<option disabled value="" selected>Border color</option>
+						<option value="#FFFFFF">Light</option>
+						<option value="#39424E">Dark</option>
+						<option value="#F76C6C">Red</option>
+						<option value="#A8D0E6">Blue</option>
+						<option value="#FFF58A">Yellow</option>
+						<option value="#CCEECC">Green</option>
+						<option value="#FEC8D8">Pink</option>
+						<option value="#E0BBE4">Purple</option>
+					</select>
+				</fieldset>
+
+				<fieldset>
+					<legend>Choose a font type:</legend>
+						<select id="themefont">
+						<option disabled value="" selected>Font</option>
+						<option value="Cabin Condensed">Cabin Condensed</option>
+						<option value="Helvetica">Helvetica</option>
+						<option value="Times New Roman">Times New Roman</option>
+						<option value="Courier">Courier</option>
+						<option value="Verdana">Verdana</option>
+						<option value="Palatino">Palatino</option>
+						<option value="Comic Sans MS">Comic Sans MS</option>
+						<option value="Andale Mono">Andale Mono</option>
+					</select>
+				</fieldset>
+
+				<fieldset>
+					<legend>Choose a font color:</legend>
+					<select id="themefontcolor">
+						<option disabled value="" selected>Font color</option>
+						<option value="#FFFFFF">Light</option>
+						<option value="#39424E">Dark</option>
+						<option value="#F76C6C">Red</option>
+						<option value="#A8D0E6">Blue</option>
+						<option value="#FFF58A">Yellow</option>
+						<option value="#CCEECC">Green</option>
+						<option value="#FEC8D8">Pink</option>
+						<option value="#E0BBE4">Purple</option>
+					</select>
+				</fieldset>
+
+				<br>
+				<footer>
+					<center><input type="submit" id="subTheme">
+						<br>
+						Please reload the page upon submitting.
+					</center>
+				</footer>
+				<script src="/scripts/theme.js"></script>
+			</form>
+		</div>
+	</body>
+</html>

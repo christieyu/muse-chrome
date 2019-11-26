@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+	<head>
+
+		<!-- Required meta tags -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+		<link href="/static/popup.css" rel="stylesheet">
+		<link href='https://fonts.googleapis.com/css?family=Cabin Condensed' rel='stylesheet'>
+
+		<title>Muse</title>
+
+	</head>
+
+	<body>
+		<!-- Side navigation -->
+		<div class="sidenav">
+			<a href="/templates/popup.html">Home</a>
+			<a href="/templates/theme.html">Theme</a>
+			<a href="/templates/bookmarks.html">Bookmarks</a>
+			<a href="/templates/notes.html">Notes</a>
+		</div>
+
+		<!-- Page content -->
+		<div class="main">
+			<form name="notes">
+				Please enter your note.
+				<br>
+				<textarea id="notes" rows="20" cols="40" placeholder="Your text here."></textarea>
+				<br>
+				<footer>
+					<center><input type="submit" id='subNotes'>
+						<br>
+						Please reload the page upon submitting.
+					</center>
+				</footer>
+				<script src="/scripts/notes.js"></script>
+			</form>
+		</div>
+	</body>
+</html>
